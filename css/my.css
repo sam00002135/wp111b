@@ -4,13 +4,13 @@ h1 {
 }
 
 body {
-  margin: 30px 10%;
+  margin: 10px 10%;
 }
 
 pre {
   background-color: #24aed8;
   border:1px dotted #0ab42f;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
 }
 
