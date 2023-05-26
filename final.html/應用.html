@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>任務管理應用</title>
+</head>
+<body>
+  <header>
+    <h1>我的任務</h1>
+    <nav>
+      <ul>
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">新增任務</a></li>
+        <li><a href="#">我的任務</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>待辦任務</h2>
+      <ul>
+        <li>
+          <h3>任務1</h3>
+          <p>截止日期：2023-05-31</p>
+          <p>狀態：未完成</p>
+        </li>
+        <li>
+          <h3>任務2</h3>
+          <p>截止日期：2023-06-15</p>
+          <p>狀態：未完成</p>
+        </li>
+        <li>
+          <h3>任務3</h3>
+          <p>截止日期：2023-06-30</p>
+          <p>狀態：未完成</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>新增任務</h2>
+      <form>
+        <label for="taskName">任務名稱：</label>
+        <input type="text" id="taskName" name="taskName" required><br>
+
+        <label for="deadline">截止日期：</label>
+        <input type="date" id="deadline" name="deadline" required><br>
+
+        <input type="submit" value="新增">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>版權所有 &copy; 2023</p>
+  </footer>
+</body>
+</html>

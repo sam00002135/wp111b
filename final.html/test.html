@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食指南</title>
+    <style>
+        /* 添加一些基本的CSS樣式 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #e9d30c;
+            color: #df1cdf;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe {
+            margin-bottom: 30px;
+            cursor: pointer; /* 添加指標樣式 */
+        }
+
+        .recipe img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .recipe h2 {
+            margin: 0;
+        }
+
+        .recipe p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>美食指南</h1>
+        <nav>
+            <a href="#recipes">食譜</a>
+            <a href="#about">關於我們</a>
+            <a href="#contact">聯絡我們</a>
+        </nav>
+    </header>
+    <main>
+        <div class="recipe" id="recipes" onclick="window.location.href='recipe.html'">
+            <h2>招牌漢堡</h2>
+            <img src="burger.jpg" alt="招牌漢堡">
+            <p>這是我們餐廳的招牌漢堡，配料包括新鮮牛肉餅、蔬菜和特製醬料。口感豐富，美味可口。</p>
+        </div>
+        <div class="recipe" onclick="window.location.href='recipe.html'">
+            <h2>經典比薩</h2>
+            <img src="pizza.jpg" alt="經典比薩">
+            <p>我們的經典比薩是用新鮮的麵團和美味的配料製成的，包括番茄醬、起司、蔬菜和火腿。</p>
+        </div>
+        <div class="recipe" onclick="window.location.href='recipe.html'">
+            <h2>巧克力蛋糕</h2>
+            <img src="chocolate-cake.jpg" alt="巧克力蛋糕">
+            <p>這款巧克力蛋糕是我們的招牌甜點，口感濕潤，巧克力味濃郁，絕對是巧克力愛好者的最愛。</p>
+        </div>
+        <div class="recipe" onclick="window.location.href='recipe.html'">
+        <h2>新鮮沙拉</h2>
+        <img src="salad.jpg" alt="新鮮沙拉">
+        <p>我們的新鮮沙拉是由新鮮蔬菜和特製醬料製成的，健康又美味。</p>
+        </div>
+        <div class="recipe" onclick="window.location.href='recipe.html'">
+        <h2>綠色Smoothie</h2>
+        <img src="smoothie.jpg" alt="綠色Smoothie">
+        <p>我們的綠色Smoothie採用新鮮的水果和蔬菜製成，富含營養，清爽可口。</p>
+        </div>
+        </main>
+        <footer>
+        <div id="about">
+        <h2>關於我們</h2>
+        <p>我們是一家致力於提供美味食物的餐廳。我們的團隊經驗豐富，每天努力為客戶帶來最好的食物體驗。</p>
+        </div>
+        <div id="contact">
+        <h2>聯絡我們</h2>
+        <p>地址：12345 台灣台北</p>
+        <p>電話：(123) 456-7890</p>
+        <p>Email：info@example.com</p>
+        </div>
+        </footer>
+        <script>
+            function showRecipe(title, description) {
+                // 在控制台上顯示食譜資訊
+                console.log("食譜標題：" + title);
+                console.log("食譜描述：" + description);
+                // 這裡你可以自行擴充，例如彈出視窗顯示食譜資訊
+                alert("食譜標題：" + title + "\n\n食譜描述：" + description);
+            }
+        </script>
+</body>
+</html>
+```        
